@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'TP1';
+  public bgcolor : string='';
+
+  public setBGColor(color:string)
+  {
+	  this.bgcolor = color;
+  }
 }
