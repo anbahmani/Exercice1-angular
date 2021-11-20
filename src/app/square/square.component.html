@@ -1,6 +1,6 @@
 <div class = "class1">
-	<button class="red"(click)="getBackGroundColor('red')"></button>
-	<button class="green"(click)="getBackGroundColor('green')"></button>
-	<button class="blue"(click)="getBackGroundColor('blue')"></button>
-	<button class="yellow"(click)="getBackGroundColor('yellow')"></button>
+	<app-little-square class = red [button_color]="'red'" (buttonColorEvent)="getBackGroundColor('red')"></app-little-square>
+	<app-little-square class = green [button_color]="'green'" (buttonColorEvent)="getBackGroundColor('green')"></app-little-square>
+	<app-little-square class = blue [button_color]="'blue'" (buttonColorEvent)="getBackGroundColor('blue')"></app-little-square>
+	<app-little-square class = yellow [button_color]="'yellow'" (buttonColorEvent)="getBackGroundColor('yellow')"></app-little-square>
 </div>

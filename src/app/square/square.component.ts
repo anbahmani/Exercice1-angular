@@ -9,7 +9,7 @@ import { Output, EventEmitter } from '@angular/core';
 
 export class SquareComponent implements OnInit {
 
-	@Output()backGroundColorEvent = new EventEmitter<string>();
+	@Output() backGroundColorEvent = new EventEmitter<string>();
 
   constructor() { }
 

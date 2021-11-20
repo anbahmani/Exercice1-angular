@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { SquareComponent } from './square/square.component';
+import { LittleSquareComponent } from './little-square/little-square.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    SquareComponent
+    SquareComponent,
+    LittleSquareComponent
   ],
   imports: [
     BrowserModule,
